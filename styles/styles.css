@@ -29,14 +29,17 @@ body
 .content
 {
     height:100%;
+    border:none;
    /* background-color: brown;*/
 }
 .content iframe
 {
 
-   width: 0;
-   height:0;
+   width: 47%;
+   height:99%;
    border:none;
+   float: right;
+
 }
 .footer{
     height: 15vh;
@@ -51,4 +54,7 @@ h1{
     color: white;
     text-align: center;
     background-color: rgba(red, green, blue, alpha);
+}
+input{
+    width: 100%;
 }
