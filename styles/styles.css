@@ -1,6 +1,5 @@
 .main{
     height: 70vh;
-    /*background-color: rgb(158, 163, 163);*/
 }
 body
 {
@@ -10,15 +9,7 @@ body
 }
 .header
 {
-    padding-top: 2vh;
-}
-
-    /*background-color: rgb(94, 121, 124);*/
-.navbar
-{
-    /*color: black;
-    background-color: rgb(233, 230, 230);
-    */
+    padding-top: 2px;
 }
 .navbar li{
     display: inline;
@@ -30,23 +21,23 @@ body
 {
     height:100%;
     border:none;
-   /* background-color: brown;*/
+    position:relative;
+    top: 28px;
+    right: auto;
 }
 .content iframe
 {
-
    width: 47%;
    height:99%;
    border:none;
    float: right;
-
+   margin-top: 100px;
 }
 .footer{
     height: 15vh;
-    /*background-color: bisque;*/
 }
 .header ul a{
-    color: white;
+    color:white;
     text-decoration: none;
     text-decoration-color: rgb(137, 10, 10);
 }
